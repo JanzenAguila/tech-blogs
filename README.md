@@ -1,4 +1,4 @@
-1. git clone -b Deploy-AI-Agent-App-Service https://github.com/robrita/tech-blogs
+1. git clone -b Multi-AI-Agent-OpenAI-Agent-SDK https://github.com/robrita/tech-blogs
 
 2. copy sample.env to .env and update
 
