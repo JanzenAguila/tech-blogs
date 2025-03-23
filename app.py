@@ -350,7 +350,7 @@ async def on_message(message: cl.Message):
 
     for element in message.elements:
         # check if the element is an image
-        if element.mime in ["image/jpeg", "image/png"]:
+        if element.mime.startswith("image/"):
             user_input += f"\n[uploaded image] {element.path}"
             print(f"Received file: {element.path}")
 
