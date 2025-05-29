@@ -15,7 +15,8 @@ load_dotenv()
 logger = logging.getLogger("azure.core.pipeline.policies.http_logging_policy")
 logger.setLevel(logging.WARNING)
 
-AIPROJECT_CONNECTION_STRING = os.getenv("AIPROJECT_CONNECTION_STRING")
+# AIPROJECT_CONNECTION_STRING = os.getenv("AIPROJECT_CONNECTION_STRING")
+AIPROJECT_CONNECTION_STRING = os.getenv("CUSTOMCONNSTR_AIPROJECT_CONNECTION_STRING")
 AGENT_ID = os.getenv("AGENT_ID")
 
 # Create an instance of the AIProjectClient using DefaultAzureCredential
